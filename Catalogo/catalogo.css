@@ -1,0 +1,269 @@
+
+/* Definições Gerais */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Definições Header */
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 5em;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+header #logo {
+    width: 80vw;
+    align-self: center;
+}
+
+header #logo img {
+margin-left: 30px;
+width: 50px;
+}
+
+header #box {
+    display: flex;
+    width: 20vw;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2em;
+}
+header #box img 
+{ 
+    width: 30px;
+    padding-right: 30px;
+}
+
+header img {
+    width: 100px;
+}
+
+header #form {
+    position: absolute;
+    margin-top: 1.3em;
+    display: flex;
+    margin-left: 67vw;
+    margin-right: 7vw;
+}
+
+header #form img {
+    width: 30px;
+    margin-left: 0.5vw;
+    margin-top:6px;
+    position: absolute;
+}
+
+#box2 {
+    display: flex;
+}
+
+header form input {
+    width: 20vw;
+    padding: 1.5vh;
+    border-radius: 20px;
+    background-color: rgb(197, 197, 197);
+    border: 0px;
+    padding-left:5vh;
+}
+
+#logo a:hover {
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5vw;
+}
+
+#filtros {
+
+    margin-left: 5em;
+    width: 20vw;
+    font-size: 15px;
+    height: 100vh;
+}
+
+.row  {
+    width: 20vw;
+    height: 6vh;
+    margin-top: 2.5vh;
+    margin-bottom: 3vh;
+    display: flex;
+}
+
+label {
+    font-size: 10px;
+}
+
+.box3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.colors {
+    width: 35px;
+    height: 35px;
+    margin-right: 1.5vw;
+    border-radius: 100%;
+    border: 0.1px solid grey;
+}
+
+.row p {
+    font-size: 12px;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.colors:hover {
+    width: 40px;
+    height: 40px;
+}
+
+#filtros h2 {
+    font-size: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    margin: 2em 0em;
+}
+
+
+
+#filtros table td {
+    border: 1px solid grey;
+    padding: 5px 1.5vw;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#filtros table td:hover {
+    border: 1px solid black;
+    transition: 0.3s;
+
+}
+
+.form {
+    font-size: 1.1vw;
+    margin: 15px 0px;;
+    display: flex;
+}
+
+.genero {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+aside {
+    margin-top: 9em;
+    position: fixed;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.backcatalogo {
+    position: absolute;
+    width: 70vw;
+    margin-top: 7em;
+    margin-left: 25vw;
+    padding: 2em;
+}
+
+
+#row1catalogo, #row2catalogo, #row3catalogo {
+    display: flex;
+}
+
+
+
+.boxcatalogo {
+    width: 20vw;
+    height: 60vh;
+    margin: 0vw 2vw;
+    margin-bottom: 10vh;
+}
+
+
+
+.fotos {
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 10px 10x 10px black;
+}
+
+.fotos img {
+    width: 20vw;
+    position: relative;
+}
+
+.fotos h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0.5em 0em 0.2em 0em;
+}
+
+.fotos .categoria {
+    font-size: 23px;
+    color: grey;
+    margin-bottom: 1em;
+}
+
+.price {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.avaliacao {
+    display: flex;
+}
+
+
+.avaliacao img {
+    width: 30px;
+}
+
+.box-avalicao {
+    font-size: 15px;
+    align-self: end;
+    margin-left: 1em;
+    border: 1px solid grey;
+    padding: 3px 10px;
+}
+
+#box1, #box10, #box3, #box4, #box5, #box6, #box7, #box8, #box9{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.141);
+    padding: 0em 0em 3em 1em;
+}
+
+.price-antigo {
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+.oferta {
+    color: green;
+}
+
